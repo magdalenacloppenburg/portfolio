@@ -6,10 +6,10 @@ theme = "forty"
 
 
 # Enter your tracking code to enable Google Analytics
-#googleAnalytics = ""
+googleAnalytics = ""
 
 # Enter your disqus shortname to enable comments
-#disqusShortname = ""
+disqusShortname = ""
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source)
@@ -38,7 +38,7 @@ theme = "forty"
 
   # Navigation Section
   [params.navigation]
-    title = "MAM 2021 Student at LBS"
+    title = "Magdalena Cloppenburg - MAM 2021 Student at LBS"
     #subtitle = "By HTML5 Up"
    # menu = "Menu"
     # Optional logo as brand stored in img/
@@ -93,6 +93,19 @@ theme = "forty"
     # Display your showcases here.
     
     [[params.tiles.showcase]]
+     title = "London Real Estate"
+     subtitle = "Applying Ensemble Methods to Predict Prices"
+     image = "london.jpg"
+     url = "blogs/blog10"
+    
+    
+    [[params.tiles.showcase]]
+      title = "Stop and Search"
+      subtitle = "Visualizing Incidents after Terror Attacks"
+      image = "stopandsearch.jpg"
+      url = "blogs/blog9"
+    
+    [[params.tiles.showcase]]
       title = "NYT Masks"
       subtitle = "How does mask acceptance vary throughout the US?"
       image = "mask.jpg"
@@ -102,26 +115,20 @@ theme = "forty"
     [[params.tiles.showcase]]
       title = "Predicting Airbnb Prices"
       subtitle = "A regression model for a 4-night stay in Munich"
-      image = "airbnb.jpg"
+      image = "covid.jpg"
       url = "blogs/blog6"
 
-    [[params.tiles.showcase]]
-      title = "COVID-19 mortality"
-      subtitle = "An analysis of death rates"
+  [[params.tiles.showcase]]
+     title = "London Bike Rentals (Santander)"
+     subtitle = "How does bike usage vary throughout the year(s)?"
+     image = "bike.jpg"
+     url = "blogs/blog8"
+     
+  [[params.tiles.showcase]]
+      title = "Data Cleaning"
+      subtitle = "Pre-processing of COVID Data"
       image = "covid.jpg"
       url = "blogs/blog7"
-
-    [[params.tiles.showcase]]
-      title = "London Bike Rentals (Santander)"
-      subtitle = "How does bike usage vary throughout the year(s)?"
-      image = "bike.jpg"
-      url = "blogs/blog8"
-
-    #[[params.tiles.showcase]]
-      #title = "Game of Thrones"
-     # subtitle = "A brief analysis of ratings, directors, and running time"
-      #image = "got.jpg"
-     # url = "blogs/blog9"
 
    # [[params.tiles.showcase]]
       #title = "Etiam"
